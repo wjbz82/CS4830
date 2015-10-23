@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<title>Angular Test App</title>
+	<script src="js/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src='js/cubeGen.js'></script>
+</head>
+<body>
+
+	<p class='score'>Score: 0</p>
+	<div class='container'></div>
+
+	<script>
+
+		var height = $(".container").height();
+		var width = $(".container").width();
+
+		var numCubes_to_gen = generate(width, height);
+		var children = getChildren();
+		populateBoard(children);
+
+	</script>
+</body>
+</html>

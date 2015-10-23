@@ -1,0 +1,31 @@
+html. body{
+	width: 100%;
+	height: 100%;
+	padding: 0; 
+	margin: 0; 
+}
+
+#container{
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 0;
+}
+
+#landscape{
+	border-bottom: 1px solid red;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	padding: 0;
+}
+
+#cube{
+	height: 50px;
+	width: 50px;
+	background-color: orange;
+	position: relative;
+	top: 100px;
+	left: 0px;
+}
